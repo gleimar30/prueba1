@@ -1,0 +1,65 @@
+body{
+    margin:0;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    border-style: solid;
+    border-color: darkmagenta;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 300px;
+    grid-template-rows: auto 60px auto;
+    align-content: right;
+}
+
+.section{
+    border-style: solid;
+    border-color:cadetblue;
+}
+
+.item1{
+    grid-column: 200px;
+    grid-row: 80px;
+    border-style: solid;
+    border-color: blue;
+    padding-bottom: 50%;
+}
+
+.item2{
+    border-style: solid;
+    border-color:darkcyan;
+    padding-bottom: 50%;
+
+}
+
+.aside{
+    border-style: solid;
+    border-color: blue;
+}
+
+.contactos{
+    grid-column: 200px;
+    grid-row: 60px;
+    border-style: solid;
+    border-color: gray;
+    padding-bottom: 50%;
+}
+
+.caja{
+    grid-row:200px;
+    height: 500px;
+    border-style: solid;
+    border-color: green;
+}
+
+.input {
+    grid-column: 200px;
+    grid-row: 60px;
+    border-style: solid;
+    border-color: gray;
+    padding-bottom: 50%;
+}
